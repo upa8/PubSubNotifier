@@ -26,5 +26,11 @@
   "dependencies": {
     "express": "^4.14.1",
     "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-config-google": "^0.7.1",
+    "eslint-plugin-import": "^2.2.0"
   }
 }
