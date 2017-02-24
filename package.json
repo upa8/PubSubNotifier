@@ -1,0 +1,30 @@
+{
+  "name": "pubsubnotifier",
+  "version": "1.0.0",
+  "description": "A module to send notification using socket.io to users. It uses redis, rabbitmq, socket.io, mongodb ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upa8/PubSubNotifier.git"
+  },
+  "keywords": [
+    "Socket.io",
+    "Publisher",
+    "Subscriber",
+    "Redis",
+    "RabbitMQ"
+  ],
+  "author": "Pratik Upacharya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/upa8/PubSubNotifier/issues"
+  },
+  "homepage": "https://github.com/upa8/PubSubNotifier#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "socket.io": "^1.7.3"
+  }
+}
